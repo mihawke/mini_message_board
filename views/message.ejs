@@ -1,0 +1,20 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Message</title>
+</head>
+
+<body>
+    <h1><%= title %></h1>
+
+    <p><strong>Message:</strong> <%= message.text %></p>
+    <p><strong>User:</strong> <%= message.user %></p>
+    <p><strong>Date Added:</strong> <%= message.added.toDateString() %></p>
+
+    <a href="/">Back to the message board</a>
+</body>
+
+</html>
